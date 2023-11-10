@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import profile from '../../assets/profile.png'
+import profile from '../assets/profile.png'
 
 const Navbar = () => {
 
@@ -22,8 +22,8 @@ const Navbar = () => {
                         </div>
                         <Link to='/'>
                             <div className="flex flex-col p-2 bg-base-200 rounded-lg">
-                                <p className="text-2xl font-semibold">Bistro Boss</p>
-                                <p className="tracking-[.3em]">Restaurant</p>
+                                <p className="text-xl font-semibold">Bistro Boss</p>
+                                <p className="tracking-[.15em]">Restaurant</p>
                             </div>
                         </Link>
                     </div>
