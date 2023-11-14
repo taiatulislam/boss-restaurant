@@ -1,10 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
-import profile from '../assets/profile.png'
+import profile from '../assets/profile.png';
 
 const Navbar = () => {
 
     const navLinks = <>
-        <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink to='/' className='text-white'>Home</NavLink></li>
+        <li><NavLink to='/contact' className='text-white'>Contact Us</NavLink></li>
+        <li><NavLink to='/menu' className='text-white'>Our Menu</NavLink></li>
+        <li><NavLink to='/shop' className='text-white'>Our Shop</NavLink></li>
     </>
 
     return (
@@ -22,8 +25,8 @@ const Navbar = () => {
                         </div>
                         <Link to='/'>
                             <div className="flex flex-col p-2 bg-base-200 rounded-lg">
-                                <p className="text-xl font-semibold">Bistro Boss</p>
-                                <p className="tracking-[.15em]">Restaurant</p>
+                                <p className="text-base font-semibold">Bistro Boss</p>
+                                <p className="text-xs tracking-[.2em]">Restaurant</p>
                             </div>
                         </Link>
                     </div>

@@ -3,9 +3,9 @@ import menu from '../../../assets/home/featured.jpg'
 
 const FromMenu = () => {
     return (
-        <section className="max-w-7xl mx-auto my-10" style={{
+        <section className="max-w-7xl mx-auto my-10 bg-fixed" style={{
             backgroundImage: `url(${menu})`,
-            backgroundPosition: 'center center',
+            backgroundPosition: 'center center'
         }}>
             <div className="bg-[#1515157a] p-10">
                 <div className="mt-10">
